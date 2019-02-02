@@ -1,0 +1,129 @@
+baseURL = "http://example.org/"
+languageCode = "zh-tw"
+title = "城市自然大挑戰-嘉義"
+
+theme = "hugo-elate-theme"
+
+
+custom_css = ["css/custom1.css", "css/custom2.css"]
+
+[params.navigation]
+    brand = "城市自然大挑戰-嘉義"
+    home = "首頁"
+    about = "關於"
+    services = "Services"
+    work = "Work"
+    counters = "統計"
+    testimonials = "Testimonials"
+    contact = "Contact"
+
+## 首頁
+ [params.hero]
+    title = "探索嘉義的生物"
+	subtitle = '你曾關注過周遭公園的生物嗎？你知道嘉義的生物多樣性及特色嗎？歡迎在 4/26 至 4/30 來參與一年一度的全球 <a href="http://citynaturechallenge.org" target="_blank">城市自然大挑戰</a>」活動！參與方式很容易，只要你走出戶外，探索自然並針對生物拍照：'
+ 
+## 參與
+
+[params.intro]
+
+  [[params.intro.item]]
+    title = "探索"
+	description = "搜尋嘉義縣市內的自然生物，不管是蟲魚鳥獸，形體或痕跡"
+    url = "#"
+    button = "了解細節"
+    icon = "icon-magnifier-add"
+    img = "CNC_icon_find-696x696.png"
+
+  [[params.intro.item]]
+    title = "拍照"
+	description = "拿出手機或相機，拍幾張照片紀錄，盡量放大並主題清楚"
+    url = "#"
+    button = "了解細節"
+    icon = "icon-camera"
+    img = "CNC_icon_pic-696x696.png"
+
+  [[params.intro.item]]
+    title = "分享"
+	description = "使用 iNaturalist 網頁介面或手機 app 來上傳觀察紀錄"
+    url = "#"
+    button = "了解細節"
+    icon = "icon-share"
+    img = "CNC_icon_share-696x696.png"
+
+
+  [params.about]
+    enable = true
+    title = "關於"
+    description = "城市自然大挑戰是由洛杉磯自然史博物館、加州科學院(博物館)發起，今年嘉義的主辦單位為："
+
+    
+    [[params.about.item]] 
+     name = "國立嘉義大學生物資源學系"
+     position = "主辦單位"
+     description = ""
+     img = "brd-logo.png"
+
+     [[params.about.item]] 
+     name = "生物資源學系生物多樣性中心"
+     position = "協辦單位"
+     description = ""
+     img = "ncyu_bioctr.png"
+     alt = ""
+     social = [
+       ["icon-facebook", "https://www.facebook.com/bioctrncyu/"],
+     ]
+
+     [[params.about.item]] 
+     name = "國立嘉義大學"
+     position = "協辦單位"
+     description = ""
+     img = "ncyu.png"
+     alt = "嘉義大學校徽"
+
+
+
+  # 統計
+  [params.counters]
+    enable = true
+    title = "目前的統計"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "觀察紀錄"
+      icon = "icon-list"
+      from = 0
+      to = 12345
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "參與人數"
+      icon = "icon-people"
+      from = 0
+      to = 387
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "紀錄生物"
+      icon = "icon-star"
+      from = 0
+      to = 1852
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "參與鄉鎮市區"
+      icon = "icon-location-pin"
+      from = 0
+      to = 25
+      interval = 50
+      speed = 5000
+
+
+   [params.footer] 
+      enable = true
+      copyright = "城市自然大挑戰-嘉義"
+      links = [
+        ["icon-facebook", "https://www.facebook.com/groups/iNaturalistTaiwan"]
+      ]
